@@ -19,7 +19,7 @@ public class Hello{
 			System.out.println("Thanks for the webhooks demonstration 1444666..");
 			System.out.println("Thanks for the webhooks demonstration 21554466666..");
 			System.out.println("Thanks for the webhooks demonstration on 17-feb-2020..");
-			System.out.println("Thanks for the webhooks demonstration on 01-jun-2020..");
+			System.out.println("Thanks for the webhooks demonstration on 05-jun-2020..");
 			System.out.println("demo on webhooks - 28");
 		}
 	}
