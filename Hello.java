@@ -5,7 +5,7 @@ public class Hello{
 			System.out.println("Hello World....."+i);
 			System.out.println("Thanks for the webhooks demo..");			
 			System.out.println("Thanks for the webhooks demos today - Aug 06-2022");
-			System.out.println("Thanks for the webhooks demos today - Feb 15 -2023");
+			System.out.println("Thanks for the webhooks demos today ");
 			System.out.println("Thanks for the webhooks demos today - March 06 -2023");
 		}
 	}
