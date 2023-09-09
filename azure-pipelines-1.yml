@@ -21,6 +21,5 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo 
-      
+      echo '$(Build.SourcesDirectory)'
       echo Hello world
