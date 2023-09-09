@@ -26,3 +26,9 @@ steps:
   inputs:
     script: java Hello
     workingDirectory: '$(Build.SourcesDirectory)/'
+- task: CmdLine@2
+  inputs:
+    script: |
+      javac Hello.java
+      java Hello
+    workingDirectory: '$(Build.SourcesDirectory)/'
