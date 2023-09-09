@@ -21,5 +21,10 @@ steps:
 - task: CmdLine@2
   inputs:
     script: |
-      echo '$(Build.SourcesDirectory)'
-      echo Hello world
+      echo '$(Build.SourcesDirectory)'      
+- task: CmdLine@2
+  inputs:
+    script: |
+      javac Hello.java
+      java Hello.java
+    workingDirectory: '$(Build.SourcesDirectory)'
