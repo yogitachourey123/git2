@@ -1,0 +1,8 @@
+pool:
+  vmImage: 'ubuntu-latest'
+
+jobs:
+- job: MyJob  # You can give your job a name
+  steps:
+  - script: echo "This is a job step"
+  # Add more steps as needed
