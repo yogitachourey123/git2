@@ -3,7 +3,18 @@ pool:
 
 jobs:
 - job: MyJob
-  parallel: none # Disable parallelism for this job
   steps:
   - script: echo "This is a job step"
   # Add more steps as needed
+
+# Define a job strategy for parallel jobs
+- job: ParallelJob1
+  dependsOn: MyJob
+  strategy:
+    matrix:
+      parallelJob1:
+        parallelism: none  # This specifies that you want to run 2 parallel jobs
+  steps:
+  - script: echo "This is a parallel job step"
+
+# You can define more parallel jobs here
