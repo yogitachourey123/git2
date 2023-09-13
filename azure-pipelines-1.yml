@@ -18,17 +18,3 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: CmdLine@2
-  inputs:
-    script: |
-      echo '$(Build.SourcesDirectory)'      
-- task: CmdLine@2
-  inputs:
-    script: java Hello
-    workingDirectory: '$(Build.SourcesDirectory)/'
-- task: CmdLine@2
-  inputs:
-    script: |
-      javac Hello.java
-      java Hello
-    workingDirectory: '$(Build.SourcesDirectory)/'
